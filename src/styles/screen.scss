@@ -12,3 +12,21 @@ body {
   margin: 0;
   font: $base-text-size / 1 $base-font-family;
 }
+
+h1 {
+  text-align: center;
+}
+
+table {
+  table-layout: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+td {
+  border: 2px solid;
+  color: rebeccapurple;
+  text-align: center;
+  height: 150px;
+  width: 150px;
+}
